@@ -1,0 +1,22 @@
+#header {
+    background: url(../blonk-header-logo.png) no-repeat center center fixed; 
+}
+.form-control {
+    padding: .75rem 1rem;
+    border-width: 0;
+    border-radius: 0;
+}
+  
+.form-control-dark {
+    color: #000000;
+    background-color: rgba(255, 255, 255, .1);
+    border-color: rgba(255, 255, 255, .1);
+}
+  
+.form-control-dark:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+#border {
+    border-width: 1px!important;
+}
